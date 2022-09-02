@@ -1,7 +1,7 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-
+import CartWidget from './CartWidget';
 
 function NavBar() {
   return (
@@ -22,6 +22,9 @@ function NavBar() {
           <Nav.Link href="#relojes">Relojes</Nav.Link>
           <Nav.Link href="#deco">Deco</Nav.Link>
           <Nav.Link href="#contacto">Contacto</Nav.Link>
+
+          <CartWidget />
+          
         </Nav>
       </Navbar.Collapse>
     </Container>
